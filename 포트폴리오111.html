@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>신입 웹퍼블리셔 이예원 | 포트폴리오</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Untitled-1.css">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+    <nav>
+        <ul>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#project">web-Project</a></li>
+            <li><a href="#design">Design-Project</a></li>
+        </ul>
+    </nav>
+<section id="intro">
+    <div class="header">
+            <img src="./header.png" alt="header" width="100%">
+    </div>
+</section>
+<section id="profile">
+    <div>
+        <div class="header-1">
+        <p><h1>About Me</h1><p>
+        자기 개발에 끝없이 도전하는<br>
+        가치있는 디자이너&퍼블리셔 입니다.<br>
+        </div>
+    </div>
+<div class="container">
+<div class="profile">
+    <p><img src="./1.jpg" alt="사진" width="200" height="200"></p>
+                        <h1>프로필</h1>
+                        <dl>
+                            <dt>Name.</dt>
+                            <dd>이예원 / Yewon Lee</dd>
+                            <dt>Date Of Birth.</dt>
+                            <dd>1997. 02. 20</dd>
+                            <dt>Tell.</dt>
+                            <dd>010-2538-9792</dd>
+                            <dt>E-mail.</dt>
+                            <dd>yw102@naver.com</dd>
+                        </dl>
+</div>
+<div class="profile-1">
+    <h1>학력</h1>
+    <dl>
+        <dt>2015.03 ~ 2020.02</dt>
+        <dd>대학교 학과(영어, 중국어)졸업 - 지역: | 학점: /4.5</dd>
+
+        <dt>2017.09 ~ 2018.06</dt>
+        <dd>교환학생: 중국 - 천진 외국어 대학교</dd>
+    </dl>
+    <h1>경력</h1>
+    <dl>
+        <dt>2025.03</dt>
+        <dd>비전공자를 위한 HTML/CSS 프로그램 수료</dd>
+        <dt>2025.02</dt>
+        <dd>운전면허 2종 취득</dd>
+        <dt>2024.06 ~ 2024.12</dt>
+        <dd>스위스포트코리아 - 여객지상직</dd>
+        <dt>2020.04 ~ 2023.06</dt>
+        <dd>신원에이전시 - 경영지원부</dd>
+    </dl>
+    <h1>스킬</h1>
+    <div class="skills">
+<img src="./photoshop.png" alt="Photoshop" width="55">
+<img src="./illustrator.png" alt="Illustrator" width="55">
+<img src="./html-5.png" alt="HTML5" width="55">
+<img src="./css3.png" alt="CSS3" width="60">
+<img src="./javascript.png" alt="JavaScript" width="55">
+    </div>
+</div>
+</section>
+
+
+<section id="project">
+<div class="project">
+    <div class="pj-title"><h1>Web-Project</h1></div>
+    <div class="pj-1">
+        <img src="./1111.png" alt="pj-1" width="40%">
+    </div>
+    <div class="pj-2">
+        <img src="./1111.png" alt="pj-2" width="40%">
+    </div>
+</div>
+</section>
+
+<section id="design">
+<div class="design">
+    <div class="ds-title"><h1>Design-Project</h1></div>
+    <div class="ds-1">
+        <img src="./header.png" alt="pj-1" width="40%">
+    </div>
+    <div class="ds-2">
+        <img src="./header.png" alt="header" width="40%">
+    </div>
+</div>
+</section>
+
+<!-- JavaScript 코드 (HTML 안에 직접 삽입) -->
+<script>
+
+        const projectimg = document.querySelectorAll(".project img, .design img, .skills img");
+    
+        projectimg.forEach((img) => {
+            img.addEventListener("click", () => {
+                img.classList.toggle("animate"); 
+            });
+        });
+
+</script>
+
+</body>
+</html>
+
