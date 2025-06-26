@@ -8,7 +8,7 @@ window.onload = function () {
     gsap.timeline({
         scrollTrigger: {
             trigger: ".visual",
-            start: "30% 55%",
+            start: "30% 40%",
             end: "100% 0%",
             scrub: 1,
             markers: false,
@@ -34,5 +34,7 @@ window.onload = function () {
     });
 
 };
+
+
 
 

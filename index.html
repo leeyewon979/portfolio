@@ -14,10 +14,11 @@
     <header class="header">
         <div class="headerWrap">
                 <button class="header_hamburger">&#9776;</button>
-            <nav id="nav_slide" class="nav_slide">
+            <nav id="navSlide" class="nav_slide">
                 <ul>
-                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#intro">#Intro</a></li>
                     <li><a href="#profile">Profile</a></li>
+                    <li><a href="#skill">Skill</a></li>
                     <li><a href="#project">web-Project</a></li>
                     <li><a href="#design">Design-Project</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -27,7 +28,7 @@
     </header>
 
 
-    <div class="wrap">
+    <div class="wrap" id="intro">
         <section class="visual">
             <div class="inner">
                 <h1 class="brandTit">
@@ -37,18 +38,19 @@
                 <p class="subTit"></p>
                 <div class="logoWrap rotate">
                     <span id="y"><img src="./assets/imgs/LogoY.png" alt="로고_Y"></span>
-                    <span id="e"><img src="./assets/imgs/LogoE.png" alt="로고_E"></span>
-                    <span id="w"><img src="./assets/imgs/LogoW.png" alt="로고_W"></span>
-                    <span id="o"><img src="./assets/imgs/LogoO.png" alt="로고_O"></span>
-                    <span id="n"><img src="./assets/imgs/LogoN.png" alt="로고_N"></span>
+                    <span id="e"><img src="./assets/imgs/LogoE2.png" alt="로고_E"></span>
+                    <span id="w"><img src="./assets/imgs/LogoW2.png" alt="로고_W"></span>
+                    <span id="o"><img src="./assets/imgs/LogoO2.png" alt="로고_O"></span>
+                    <span id="n"><img src="./assets/imgs/LogoN2.png" alt="로고_N"></span>
+                    <span id="y"><img src="./assets/imgs/LogoY.png" alt="로고_Y"></span>
+                    <span id="w"><img src="./assets/imgs/LogoW2.png" alt="로고_W"></span>
+
                 </div>
-                <div class="box">
-                    <div class="mainImg">
-                        <span><img src="./assets/imgs/이예원3.jpg" alt="프로필" width="100%"></span>
-                    </div>
-                    <div class="mainText">
-                        <p>배움 앞에 망설이지 않고,<br> 도전 앞에 물러서지 않습니다.<br>
-                        <span>진심을 담아 만드는<br> 디자이너 & 퍼블리셔,<br>이예원입니다.</span></p>
+                <div class="box" id="profile">
+                    <div class="mainCon">
+                        <span><img src="./assets/imgs/이예원img.jpg" alt="프로필" width="90%"></span>
+                        <p>배움 앞에 망설이지 않고, 도전 앞에 물러서지 않습니다.<br>
+                        <span>진심을 담아 만드는 디자이너 & 퍼블리셔,<br>이예원입니다.</span></p>
                     </div>
                     <div class="subText">
                         <h3>Profile</h3>
@@ -68,18 +70,11 @@
                         <P>2017.09 ~ 2018.06 교환학생/중국 - 천진 외국어 대학교</P>
                     </div>
                     <div class="subText">
-                        <h3>Work EXPERIENCE</h3>
-                        <dl>
-                            <dt>2025.03</dt>
-                            <dd>비전공자를 위한 HTML/CSS 프로그램 수료</dd>
-                            <dt>2025.02</dt>
-                            <dd>운전면허 2종 취득</dd>
-                            <dt>2024.06 ~ 2024.12</dt>
-                            <dd>스위스포트코리아 - 여객지상직</dd>
-                            <dt>2020.04 ~ 2023.06</dt>
-                            <dd>신원에이전시 - 경영지원부</dd>
-
-                        </dl>
+                        <h3>Work Experience</h3>
+                            <P>2025.03 비전공자를 위한 HTML/CSS 프로그램 수료</P>
+                            <P>2025.02 운전면허 2종 취득</P>
+                            <P>2024.06 ~ 2024.12 스위스포트코리아 - 여객지상직</P>
+                            <P>2020.04 ~ 2023.06 신원에이전시 - 경영지원부</P>
                         <a href="#" class="btn">Read More</a>
                     </div>
                 </div>
@@ -88,7 +83,7 @@
     </div>
     <!-- 스킬 -->
     <div class="wrap_2">
-        <section class="skills">
+        <section class="skills" id="skill">
             <div class="textbox">
                 <h2>Skills</h2>
             </div>
@@ -106,25 +101,37 @@
                 <li class="b">
                     <div class="page">
                         <img src="./assets/imgs/css3.png" alt="">
-                        <p>CSS3 다양한 최신 트렌드디자인과 애니메이션을 구성하며 JAVASCRIPT와 연동할 수 있는 화려한 디자인을 제작할 수 있습니다.</p>
+                        <div>
+                            <h3>CSS3</h3>
+                            <p>CSS3 다양한 최신 트렌드디자인과 애니메이션을 구성하며 JAVASCRIPT와 연동할 수 있는 화려한 디자인을 제작할 수 있습니다.</p>
+                        </div>
                     </div>
                 </li>
                 <li class="c">
                     <div class="page">
                         <img src="./assets/imgs/javascript.png" alt="">
-                        <p>기본 문법과 function의 응용 및 구조를 학습하여 웹페이지 동작에 필요한 스크립트를 작성 할 수 있습니다.</p>
+                        <div>
+                            <h3>JAVASCRIPT</h3>
+                            <p>기본 문법과 function의 응용 및 구조를 학습하여 웹페이지 동작에 필요한 스크립트를 작성 할 수 있습니다.</p>
+                        </div>
                     </div>
                 </li>
                 <li class="a">
                     <div class="page">
                         <img src="./assets/imgs/photoshopLogo.png" alt="">
-                        <p>사진 보정, 합성, 상세페지이, SNS디자인 등 다양한 실무 디자인을 창의적으로 제작할 수 있습니다.</p>
+                        <div>
+                            <h3>PHOTOSHOP</h3>
+                            <p>사진 보정, 합성, 상세페지이, SNS디자인 등 다양한 실무 디자인을 창의적으로 제작할 수 있습니다.</p>
+                        </div>
                     </div>
                 </li>
                 <li class="b">
                     <div class="page">
                         <img src="./assets/imgs/illustrator.png" alt="">
-                        <p>간단한 캐릭터 디자인, 로고 디자인 등 깔끔하고 돋보이는 백터 디자인을 제작할 수 있습니다.</p>
+                        <div>
+                            <h3>ILLUSTRATOR</h3>
+                            <p>간단한 캐릭터 디자인, 로고 디자인 등 깔끔하고 돋보이는 백터 디자인을 제작할 수 있습니다.</p>
+                        </div>
                     </div>
                 </li>
             </ul>
@@ -133,24 +140,144 @@
     </div>
     <!-- 포트폴리오 -->
     <div class="wrap_3">
-        <section class="portfolio">
+        <section class="portfolio" id="project">
             <div class="textbox">
                 <h2>Portfolio</h2>
                 <p>WEB-DESIGN PROJECT</p>
             </div>
-            <ul class="portfolio-list">
-                <li class="a"><div class="work"><img src="./assets/imgs/ddddddd.PNG" alt="" width="500px"></div></li>
-                <li class="b"><div class="work"><img src="./assets/imgs/ddddddd.PNG" alt=""></div></li>
-                <li class="c"><div class="work"><img src="./assets/imgs/ddddddd.PNG" alt=""></div></li>
-            </ul>
-        </section>
-        <section class="con03">
-            <div class="textbox">
-                <h2>thank you : )</h2>
+            <div class="project-wrap">
+                <div class="project">
+                    <div class="project_left">
+                        <a href="https://leeyewon979.github.io/" class="project_link">
+                            <img src="./assets/imgs/projectImg1.png" alt="">
+                            <div class="overlay-area">
+                                <div class="overlay-text">
+                                    <p><strong>반응형 웹사이트 제작 (Desktop, Tablet, Mobile)</strong><br>풀페이지 스크롤 기반 쇼핑몰</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project_right">
+                        <h2>FILLOW</h2>
+                        <div class="Fcon">
+                            <div class="Fcon_left">
+                                <p>참여도</p>
+                                <p>제작 페이지</p>
+                                <p>제작 기간</p>
+                                <p>사용 프로그램</p>
+                            </div>
+                            <div class="Fcon_right">
+                                <p>개인 100% 작업</p>
+                                <p>메인, 상세페이지</p>
+                                <p>2025.01 ~ 2025.02</p>
+                                <p>HTML, CSS, JAVASCRIPT, Photoshop, Git</p>
+                                <!-- <div class="project_link">
+                                    <a href="" class="View">View Project</a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-wrap">
+                <div class="project">
+                    
+                    <div class="project_left">
+                        <a href="https://leeyewon979.github.io/hyundaicard/" class="project_link">
+                            <img src="./assets/imgs/projectImg2.png" alt="">
+                            <div class="overlay-area">
+                                <div class="overlay-text">
+                                    <p><strong>PC 웹사이트 퍼블리싱</strong><br>브랜드 중심 UI 구현</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="project_right">
+                        <h2>HYUNDAI CARD</h2>
+                        <div class="Fcon">
+                            <div class="Fcon_left">
+                                <p>참여도</p>
+                                <p>제작 페이지</p>
+                                <p>제작 기간</p>
+                                <p>사용 프로그램</p>
+                            </div>
+                            <div class="Fcon_right">
+                                <p>개인 100% 작업</p>
+                                <p>메인, 상세페이지</p>
+                                <p>2025.01 ~ 2025.02</p>
+                                <p>HTML, CSS, JAVASCRIPT, Photoshop, Git</p>
+                                <!-- <div class="project_link">
+                                    <a href="" class="View">View Project</a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="project-wrap">
+                <div class="project">
+                    <div class="project_left">
+                        <a href="https://leeyewon979.github.io/lacorvette/" class="project_link">
+                            <img src="./assets/imgs/projectImg3.png" alt="">
+                            <div class="overlay-area">
+                                <div class="overlay-text">
+                                    <p><strong>PC 웹사이트 퍼블리싱</strong><br>정적 페이지 구성 + 슬라이더 적용</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project_right">
+                        <h2>LA CORVETTE</h2>
+                        <div class="Fcon">
+                            <div class="Fcon_left">
+                                <p>참여도</p>
+                                <p>제작 페이지</p>
+                                <p>제작 기간</p>
+                                <p>사용 프로그램</p>
+                            </div>
+                            <div class="Fcon_right">
+                                <p>개인 100% 작업</p>
+                                <p>메인, 상세페이지</p>
+                                <p>2025.01 ~ 2025.02</p>
+                                <p>HTML, CSS, JAVASCRIPT, Photoshop, Git</p>
+                                <!-- <div class="project_link">
+                                    <a href="" class="View">View Project</a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
-
+    <!-- 연락처 -->
+    <div class="wrap_4">
+        <section class="Contact" id="contact">
+            <div class="textbox">
+                <h2>Contact</h2>
+                <p>CONTACT ME</p>
+            </div>
+            <div class="contact_wrap">
+                <div class="text">
+                    <span>저의 포트폴리오를 읽어주셔서 감사합니다.</span>
+                    <br>끊임없이 성장하고 도전하는 웹 퍼블리셔,
+                    <br>찾고계신다면 메일을 보내주세요.
+                </div>
+                <div class="post">
+                    <form action="./mail/mail.php" method="post">
+                        <div class="link">
+                            <input type="text" name="names" placeholder="Name">
+                            <input type="submit" value="SEND">
+                        </div>
+                        <input type="text" name="email" placeholder="E-mail">
+                        <textarea name="text" placeholder="Contact"></textarea>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <script>
   gsap.registerPlugin(ScrollTrigger);
@@ -215,25 +342,39 @@
     });
   });
 
-        // ---nav slide---
-        const hamburgerBtn = document.querySelector('.header_hamburger');
-        const navSlide = document.getElementById('nav_slide');
-        // 햄버거 클릭 시 토글
-        hamburgerBtn.addEventListener('click', (e) => {
-          e.stopPropagation();
-          navSlide.classList.toggle('active');
-        });
 
-        // 메뉴 클릭 시 닫히지 않도록
-        navSlide.addEventListener('click', (e) => {
-          e.stopPropagation();
-        });
+// ---nav slide---
+const hamburgerBtn = document.querySelector('.header_hamburger');
+const navSlide = document.getElementById('navSlide');
+// 햄버거 클릭 시 토글
+hamburgerBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    navSlide.classList.toggle('active');
+    hamburgerBtn.classList.toggle('clicked'); // 클릭 시 색상 토글
 
-        // 다른 영역 클릭 시 메뉴 닫기
-        document.addEventListener('click', () => {
-          navSlide.classList.remove('active');
-        });
-        // ---nav slide end---
+    // 아이콘 토글
+    if (hamburgerBtn.classList.contains('clicked')) {
+        hamburgerBtn.innerHTML = '✖'; // 닫기 아이콘
+    } else {
+        hamburgerBtn.innerHTML = '&#9776;'; // 햄버거 아이콘
+    }
+});
+
+// 메뉴 클릭 시 닫히지 않도록
+navSlide.addEventListener('click', (e) => {
+    e.stopPropagation();
+});
+
+// 다른 영역 클릭 시 메뉴 닫기
+document.addEventListener('click', () => {
+    navSlide.classList.remove('active');
+    hamburgerBtn.classList.remove('clicked'); // 클릭 해제 시 색상 원복
+});
+// ---nav slide end---
+
+
+
+
     </script>
 
 
