@@ -122,8 +122,15 @@ document.addEventListener('DOMContentLoaded', () => {
       const modalImg = document.getElementById('modalImage');
       const parent = thumb.closest('.item');
       modalImg.src = thumb.dataset.src;
-      if (parent.classList.contains('item1')) modal.classList.add('small-modal');
-      else modal.classList.remove('small-modal');
+      if (
+        parent.classList.contains('item1') ||
+        parent.classList.contains('item2') ||
+        parent.classList.contains('item3')
+      ) {
+        modal.classList.add('small-modal');
+      } else {
+        modal.classList.remove('small-modal');
+      }
       modal.style.display = 'flex';
     });
   });
