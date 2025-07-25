@@ -210,4 +210,7 @@ border-radius: 50%; width: 20px; height: 20px; text-align: center; cursor: point
   .visual .inner .brandTit {width: 70%; margin: 50% auto 0;}
   .typing.first {font-size: 2rem;}
   .typing.second {font-size: 1.2rem;}
+  .headerWrap {top: 20px; left: 20px;}
+  input[id="hamburger"] + label {display: block; width: 25px; height: 20px;}
+  input[id="hamburger"] + label span {height: 3px; width: 100%;}
 }
