@@ -82,7 +82,7 @@ display: grid; grid-template-columns: repeat(auto-fit); column-gap: 100px; row-g
 .skills .list .page .text-wrap h3 {font-size: 1.5rem; font-weight: 600; margin-bottom: 10px; color: #333;}
 
 /* web-publisher portfolio */
-.wrap_3 {margin: 0 auto; padding-top: 2.7%; position: relative; background: #e6ccc7; padding-bottom: 4%;}
+.wrap_3 {margin: 0 auto; padding-top: 2.7%; position: relative; background: #e6ccc7; padding-bottom: 4.3%;}
 .portfolio .textbox p {font-size: 1.2rem;}
 .project-wrap {display: flex; justify-content: center; align-items: center; margin: 2.7% auto; padding-block: 5.4%; white-space: nowrap;}
 .project {display: flex; align-items: center; }
@@ -207,10 +207,11 @@ border-radius: 50%; width: 20px; height: 20px; text-align: center; cursor: point
   .contact_wrap small {margin-top: 40px; font-size: 0.8rem;}
 }
 @media screen and (max-width: 400px) {
+  .visual .inner .box .mainCon span {font-size: 0.9rem;}
   .visual .inner .brandTit {width: 70%; margin: 50% auto 0;}
   .typing.first {font-size: 2rem;}
   .typing.second {font-size: 1.2rem;}
-  .headerWrap {top: 10px; left: 10px;}
+  .headerWrap {top: 20px; left: 20px;}
   input[id="hamburger"] + label {display: block; width: 25px; height: 20px;}
   input[id="hamburger"] + label span {height: 3px; width: 100%;}
 }
